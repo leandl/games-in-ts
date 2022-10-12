@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(3, 3, 3, 0.6);
+}
+
+.box {
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-game {
+    width: 304px;
+    height: 64px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-input {
+    width: 100px;
+    height: 64px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.render {
+    background-color: white;
+    margin-top: 10px;
+    width: 304px;
+    height: 200px;
+    text-align: center;
+    display: none;
+}
+
+.render.open {
+    display: block;
+}
+
+.historic {
+    color: black;
+    font-size: 20px;
+}
+
+.float-l, .float-r {
+    margin: 10px 0px 10px 0px;
+    color: black;
+    font-size: 24px;
+}
+
+.title {
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    width: 304px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.b-t {
+    border-top: solid 1px gray;
+}
+
+.b-r {
+    border-right: solid 1px gray;
+}
+
+.b-b {
+    border-bottom: solid 1px gray;
+}
+
+.b-l {
+    border-left: solid 1px gray;
+}
+
+.float-l {
+    float: left;
+    width: 50%;
+}
+
+.float-r {
+    float: right;
+    width: 50%;
+}
+
+.players {
+    border-bottom: solid 1px gray;
+}

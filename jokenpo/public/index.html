@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jokenpo</title>
+</head>
+<body>
+    <div class="box">
+        <div class="title">Stone, Paper, Scissor</div>
+        <div class="box-game">
+            <div data-input-jokenpo="STONE" class="box-input b-r"><img src="./assets/images/hand_3.png" alt="mao em formato de tesoura"></div>
+            <div data-input-jokenpo="PAPER" class="box-input b-l b-r"><img src="./assets/images/hand_1.png" alt="mao em formato de tesoura"></div>
+            <div data-input-jokenpo="SCISSOR" class="box-input b-l"><img src="./assets/images/hand_2.png" alt="mao em formato de tesoura"></div>
+        </div>
+        <div class="render">
+            <div class="players">
+                <div class="float-l">Player</div>
+                <div class="float-r">Cpu</div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="img">
+                <div class="float-l"><img id="player" src="./assets/images/hand_1.png" alt="mao em formato de tesoura"></div>
+                <div class="float-r"><img id="cpu" src="./assets/images/hand_1.png" alt="mao em formato de tesoura"></div> 
+                <div style="clear: both"></div>
+            </div>
+            <div class="historic"></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
